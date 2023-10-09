@@ -66,19 +66,6 @@ def menos_pesado (lista_personajes):
     
     print(f"El personaje menos pesado es: {nombre_menos_peso}, con un peso de: {peso_min} kilos.")
     
-def mostrar_menu ():
-    menu = (
-        "\n   *** Primera parte: ***   \n"
-        "1. Nombres de los superheroes\n"
-        "2. Altura de los superheroes\n"
-        "3. Superheroe mas alto\n"
-        "4. Superheroe mas bajo\n"
-        "5. Promedio de altura de los superheroes\n"
-        "6. Superheroe mas pesado\n"
-        "7. Superheroe menos pesado\n"
-    )
-    print(menu)
-    
 # ---> Segunda parte
 
 def genero_m (lista_personajes):
@@ -205,6 +192,21 @@ def contador_inteligencia(lista_personajes):
     for inteligencia, count in contador_inteligencia.items():
         print(f"{inteligencia}: {count}")
         
+# ---> Menús
+
+def mostrar_menu ():
+    menu = (
+        "\n   *** Primera parte: ***   \n"
+        "1. Nombres de los superheroes\n"
+        "2. Altura de los superheroes\n"
+        "3. Superheroe mas alto\n"
+        "4. Superheroe mas bajo\n"
+        "5. Promedio de altura de los superheroes\n"
+        "6. Superheroe mas pesado\n"
+        "7. Superheroe menos pesado\n"
+    )
+    print(menu)
+    
 def mostrar_segundo_menu():
     menu = (
         "\n   *** Segunda parte: ***   \n"
@@ -221,3 +223,4 @@ def mostrar_segundo_menu():
         "11. Tipos y cantidad de inteligencia\n"
     )
     print(menu)
+    
